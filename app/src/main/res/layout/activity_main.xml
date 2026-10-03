@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prototipo 2 - Intents"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botones hechos por Joaquin :b -->
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌐 Abrir Página Web" />
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📞 Marcar Teléfono" />
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🗺️ Abrir Mapa" />
+
+    <Button
+        android:id="@+id/btnAyuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="❓ Ver Ayuda (Explícito)" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CCCCCC"
+        android:layout_marginVertical="15dp"/>
+
+    <!-- Tus botonsitos de gomita Ricky -->
+    <Button
+        android:id="@+id/btnCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✉️ Enviar Correo" />
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📸 Tomar Fotografía" />
+
+    <Button
+        android:id="@+id/btnDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Ver Detalle (Explícito)" />
+
+    <Button
+        android:id="@+id/btnConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚙️ Configuración (Explícito)" />
+
+</LinearLayout>

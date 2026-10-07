@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prototipo2Android">
         <activity
+            android:name=".ConfigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleActivity"
+            android:exported="false" />
+        <activity
             android:name=".AyudaActivity"
             android:exported="false" />
         <activity

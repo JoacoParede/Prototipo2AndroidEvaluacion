@@ -23,7 +23,7 @@ Aplicación desarrollada para demostrar el uso correcto y validado de Intents Ex
 3. *ConfigActivity:* Al presionar el botón, se abre una pantalla de ajustes que incorpora un Toolbar con un botón funcional de "Atrás".
 
 ## 🖼️ Capturas de Pantalla
-
+(En carpeta de Capturas)
 
 
 ## 🛠️ Validaciones y Control de Errores
